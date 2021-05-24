@@ -1,0 +1,3 @@
+C:\Users\krist\Desktop\AI Project 2\Debug\AI Project 2.exe
+C:\Users\krist\Desktop\AI Project 2\Debug\AI Project 2.pdb
+C:\Users\krist\Desktop\Sudoku-Solver\Sudoku Solver\Debug\AI Project 2.exe
