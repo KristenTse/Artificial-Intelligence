@@ -1,2 +1,2 @@
-# Sudoku-Solver
-For AI 
+# Artificial-Intelligence
+CS 4613
