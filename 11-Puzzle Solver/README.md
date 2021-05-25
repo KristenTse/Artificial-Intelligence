@@ -1,12 +1,12 @@
 # Instructions
-**Project Description**
-Implement the A* algorithm with graph search for solving the 11-puzzle problem as described below. Use sum of Manhattan distances of tiles from their goal positions as heuristic function.
+**Project Description**<br>
+<p>Implement the A* algorithm with graph search for solving the 11-puzzle problem as described below. Use sum of Manhattan distances of tiles from their goal positions as heuristic function.</p><br>
 
-**11-Puzzle Problem**
-On a 3 x 4 board there are 11 tiles numbered from 1 to 11 and a blank position. A tile can slide into the blank position if it is horizontally or vertically adjacent to the blank position. Given a start board configuration and a goal board configuration, find a move sequence with a minimum number of moves to reach the goal configuration from the start configuration. (Note: the 3 x 4 board has 3 rows and 4 columns.)
+**11-Puzzle Problem**<br>
+<p>On a 3 x 4 board there are 11 tiles numbered from 1 to 11 and a blank position. A tile can slide into the blank position if it is horizontally or vertically adjacent to the blank position. Given a start board configuration and a goal board configuration, find a move sequence with a minimum number of moves to reach the goal configuration from the start configuration. (Note: the 3 x 4 board has 3 rows and 4 columns.)</p><br>
 
-**File Format**
-Your program will read in the initial and goal states from a text file that contains 7 lines as follows:
+**File Format**<br>
+<p>Your program will read in the initial and goal states from a text file that contains 7 lines as follows:
 - Lines 1 to 3 contain the tile pattern for the initial state
 - Line 4 is a blank line.
 - Lines 5 to 7 contain the tile pattern for the goal state
@@ -23,26 +23,27 @@ Integer 0 represents the blank position and integers 1 to 11 represent tile numb
   - There should be d number of A values
 - Line 12 contains the *f(n)* values of the nodes along the solution path from the root node to the goal node, separated by blanks. 
   - There should be *d*+1 number of *f* values
+</p>
 
 # Example Input Format
-n n n n
-n n n n
-n n n n 
+n n n n<br>
+n n n n<br>
+n n n n<br>
 
-m m m m 
-m m m m 
-m m m m
+m m m m<br>
+m m m m<br>
+m m m m<br>
 
 # Example Output Format
-n n n n
-n n n n
-n n n n 
+n n n n<br>
+n n n n<br>
+n n n n<br>
 
-m m m m 
-m m m m 
-m m m m
+m m m m<br>
+m m m m<br>
+m m m m<br>
 
-d
-N
-A A A A A A A ……………
+d<br>
+N<br>
+A A A A A A A ……………<br>
 f f f f f f f f ……………
